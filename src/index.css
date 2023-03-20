@@ -156,7 +156,6 @@ aside .progress-bar {
 main {
   overflow-y: scroll;
   width: calc(100vw - 480px);
-  background-color: #f5f5f5;
 }
 
 header {

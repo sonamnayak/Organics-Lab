@@ -156,6 +156,7 @@ aside .progress-bar {
 main {
   overflow-y: scroll;
   width: calc(100vw - 480px);
+  background-color: #f5f5f5;
 }
 
 header {
@@ -497,6 +498,16 @@ footer p {
 
   .card {
     width: 270px;
+  }
+}
+
+@media screen and (max-width: 1400px){
+  .multi-cards {
+    gap: 14px;
+  }
+
+  .card {
+    width: 250px;
   }
 }
 

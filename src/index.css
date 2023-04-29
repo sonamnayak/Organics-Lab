@@ -3,6 +3,15 @@
   padding: 0px;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
+
 .app {
   display: flex;
   height: 100vh;
@@ -30,6 +39,7 @@ p, input, button {
   flex-direction: column;
   background-color: rgba(51, 95, 4, 0.1);
   height: 100vh;
+  overflow-y: auto;
 }
 
 .sidebar-ellipse {
